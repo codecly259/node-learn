@@ -6,6 +6,7 @@
  * @type {exports|module.exports}
  */
 
+var formidable = require("formidable");
 var http = require("http");
 var url = require("url");
 
@@ -17,12 +18,12 @@ function start(route, handler) {
 
 		request.setEncoding("utf8");
 
-		request.addListener("data", function(postDataChunk){
+		request.addListener("data", function (postDataChunk) {
 			postData += postDataChunk;
 			console.log("Received POST data chunk " + postDataChunk + ".");
 		});
 
-		request.addListener("end", function(){
+		request.addListener("end", function () {
 			route(handler, pathname, response, postData);
 		});
 
