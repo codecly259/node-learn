@@ -4,19 +4,21 @@
 
 /**
  * node中程序是单线程执行的，通过事件轮询来实现并行操作
+ * 理解node.js的事件轮询: http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/
  * @returns {string}
  */
+
+var exec = require("child_process").exec;
+
 function start() {
 	console.log("Request handler 'start' was called.");
 
-	function sleep(milliSeconds) {
-		var startTime = new Date().getTime();
-		console.info(new Date().getTime() < startTime + milliSeconds);
-		while(new Date().getTime() < startTime + milliSeconds);
-	}
+	var content = "empty";
+	exec("ls -lah", function (error, stdout, stderr) {
+		content = stdout;
+	});
 
-	sleep(10000);
-	return "Hello Start";
+	return content;
 }
 
 function upload() {
