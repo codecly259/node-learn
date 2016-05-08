@@ -11,6 +11,7 @@ mkdir lesson01 && cd lesson01
 ```
 
 2. 安装express
+
 `npm install express --registry=https://registry.npm.taobao.org`
 
 3. 编写代码 app.js
@@ -18,7 +19,7 @@ mkdir lesson01 && cd lesson01
 ## 使用
 
 1. `node app.js`
-2. 访问 http:127.0.0.1:3000
+2. 访问 [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
 
 
