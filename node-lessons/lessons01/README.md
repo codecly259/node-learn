@@ -4,15 +4,9 @@
 
 ## 步骤
 
-1. 创建目录
+1. 创建目录: `mkdir lesson01 && cd lesson01`
 
-```
-mkdir lesson01 && cd lesson01
-```
-
-2. 安装express
-
-`npm install express --registry=https://registry.npm.taobao.org`
+2. 安装express: `npm install express --registry=https://registry.npm.taobao.org`(使用淘宝镜像)
 
 3. 编写代码 app.js
 
