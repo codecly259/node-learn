@@ -1,0 +1,21 @@
+{
+  "name": "lesson04",
+  "version": "1.0.0",
+  "description": "use eventproxy to control concurrency",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node-learn",
+    "node-lessons",
+    "lesson04"
+  ],
+  "author": "codecly <maxinchun0215@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "eventproxy": "^0.3.4",
+    "superagent": "^1.8.3"
+  }
+}
