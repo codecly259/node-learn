@@ -14,6 +14,6 @@
 
 4. 创建app.js并编写代码
 
-5. 运行项目： node app.js
+5. 运行项目： `node app.js`
 
 6. 访问网址[http://127.0.0.1:3000?q=codecly](http://127.0.0.1:3000?q=codecly)
