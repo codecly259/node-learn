@@ -8,7 +8,7 @@
 
 1. 创建目录： `mkdir lesson02 && cd lesson02`
 
-2. 初始化node项目环境： `npm init` ，根据要求填写配置，不需要中医具体配置，可以使用默认的
+2. 初始化node项目环境： `npm init` ，根据要求填写配置，不需要注意具体配置，可以使用默认的
 
 3. 安装需要的依赖： `npm install express utility --save`
 
