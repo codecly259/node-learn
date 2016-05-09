@@ -3,7 +3,7 @@
 
 ## 目标
 
-当浏览器中访问 http://127.0.0.1:3000时，输出CNode(https://cnodejs.org)社区首页的所有帖子标题和链接，以json形式
+当浏览器中访问 http://127.0.0.1:3000 时，输出CNode(https://cnodejs.org)社区首页的所有帖子标题和链接，以json形式
 
 
 ## 步骤
