@@ -1,0 +1,23 @@
+{
+  "name": "lesson06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test instance:mocha, should, istanbul",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "node-learn",
+    "node-lessons",
+    "lesson06",
+    "test",
+    "module"
+  ],
+  "author": "codecly <maxinchun0215@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
