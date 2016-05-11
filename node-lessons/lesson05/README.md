@@ -7,3 +7,11 @@
 
 
 ## 步骤
+
+1. `npm init`
+
+2. `npm install async --save`
+
+3. `touch app.js` 并编写实现代码
+
+4. `node app.js` 运行检测
