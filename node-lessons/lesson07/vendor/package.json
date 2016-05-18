@@ -1,0 +1,21 @@
+{
+  "name": "lesson07-example",
+  "version": "1.0.0",
+  "description": "a simple example of using mocha, phantomjs, chai",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha-phantomjs": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
+  },
+  "keywords": [
+    "mocha",
+    "phantomjs",
+    "chai",
+    "lesson07"
+  ],
+  "author": "codecly <maxinchun0215@qq.com>",
+  "license": "MIT"
+}
