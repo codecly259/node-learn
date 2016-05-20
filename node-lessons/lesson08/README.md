@@ -102,6 +102,17 @@ node app.js
 再访问 `http://127.0.0.1:3000/fib?n=111`, 会看到 `n should <= 10`。
 
 
+装个`nodemon` [https://github.com/remy/nodemon](https://github.com/remy/nodemon)
 
+```
+npm i -g nodemon
+```
+
+这个库是专门调用时候使用的，它会自动检测 node.js 代码的改动，然后帮你自动重启应用。
+在调用时可以完全使用 `nodemon` 命令代替 node 命令。
+
+`nodemon app.js` 启动我们的应用试试，然后随便改两行代码，就可以看到 nodemon 帮我们重启应用了。
+
+那么 app 写完了，接着开始测试，测试代码在 test/app.test.js 中。
 
 
