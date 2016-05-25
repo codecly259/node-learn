@@ -1,0 +1,18 @@
+{
+  "name": "lesson10",
+  "version": "1.0.0",
+  "description": "benchmark 怎么写",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "benchmark",
+    "node-lesson"
+  ],
+  "author": "codecly259 <maxinchun0215@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.0"
+  }
+}
